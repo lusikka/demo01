@@ -28,7 +28,7 @@ namespace teht02
             else if (point == 10 || point == 11 || point == 12)
                 grade = 5;
             else
-                Console.WriteLine("Invalid number!!");
+                Console.WriteLine("Invalid number!!!");
             Console.WriteLine(grade);
         }
     }
