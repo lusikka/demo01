@@ -14,7 +14,7 @@ namespace teht07
             Console.WriteLine("Give me a year: ");
             string line = Console.ReadLine();
             year = int.Parse(line);
-            if (year % 4 == 0 && year % 400 == 0)
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
                 Console.WriteLine("It's a leap year! ~ ^^;;");
             else
                 Console.WriteLine("It's not a leap year...");
