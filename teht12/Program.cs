@@ -10,16 +10,15 @@ namespace teht12
     {
         static void Main(string[] args)
         {
-            int num;
-            int[] table;
-            for (int i = 0; i <= 4; i++)
+            int[] table = new int[6];
+            for (int i = 1; i <= 5; i++)
             {
                 Console.WriteLine("5 numbers this time. Number #" + i + ":");
                 string line = Console.ReadLine();
-                num = int.Parse(line);
-
+                table[i] = int.Parse(line);
+               
             }
-
+            Console.WriteLine("In reverse: " + table[5] + table[4] + table[3] + table[2] + table[1]);
 
         }
     }
